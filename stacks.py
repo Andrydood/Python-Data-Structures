@@ -32,7 +32,6 @@ class stack:
 
         output = self.top.value
         nextNodeBuffer = self.top.next
-        del self.top
         self.top = nextNodeBuffer
         return output
     
